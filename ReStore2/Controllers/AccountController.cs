@@ -6,6 +6,8 @@ using ReStore2.Entities;
 
 namespace ReStore2.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
     public class AccountController : ControllerBase
     {
         private readonly UserManager<User> _userManager;
